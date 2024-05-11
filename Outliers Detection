@@ -1,0 +1,18 @@
+> About the dataset: <
+
+In industrial settings, diagnosis involves identifying abnormal functioning in sensor data, 
+which can result from various factors such as equipment failure, control system malfunctions, or environmental changes. 
+Detecting anomalies is crucial for making informed decisions and taking corrective actions. 
+With the advent of IoT systems, industrial data generation has increased significantly, posing challenges in analyzing complex systems. 
+Machine learning tools offer a logical approach to address these diagnostic challenges by leveraging large volumes of data. 
+This dataset aims to explore the application of machine learning techniques for fault detection and diagnosis in industrial systems.
+
+> About the features of the sensor:<
+
+Time series of measurements on sensors uniquely identified by a Sensor ID.
+During the series of measurements, the sensor is disconnected or on failure.
+SensorID = 1 = PT100 temperature sensor, in an industrial environment, with dust & vibrations
+
+Timestamp -- Time
+SensorId -- Unique Id of the sensor
+Value -- Value mesaured on the sensor at timestamp
